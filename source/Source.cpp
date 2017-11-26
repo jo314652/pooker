@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 
-	//shuffle(deck);
+	shuffle(deck);
 	deal(deck, face, suit);
 
 	system("pause");
